@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./station.jpg');
+  background-size: cover;
+}
+div * {
+  margin: 0.3rem;
+}
+button {
+  text-transform: uppercase;
+  color: white;
+  width: 12.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  border-radius: 0.625rem;
+  border: 0px;
+  cursor: pointer;
+}
+.increment-btn {
+  background-color: darkred;
+}
+.save-btn {
+  background-color: darkgreen;
+}
